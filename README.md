@@ -17,6 +17,7 @@ To make this application, we will be using android studio for a mobile app, as w
 ### Admin Access:<br>
 
 ### Initial Mockup:
+![Whiteboard](https://user-images.githubusercontent.com/61339429/164384777-c2897b50-f877-4fe3-b91a-e5502e11e383.png)
 
 
 ### Entity Relation Diagram (EDR):
