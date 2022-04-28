@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.438Group7Project3">
         <activity
+            android:name=".CreateAccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
