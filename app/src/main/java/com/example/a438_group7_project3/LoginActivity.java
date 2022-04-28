@@ -11,6 +11,7 @@ import android.widget.Button;
 public class LoginActivity extends AppCompatActivity {
 
     private Button loginButton;
+    private Button toCreateAccountButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,20 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         loginButton = findViewById(R.id.buttonLogin);
+        toCreateAccountButton = findViewById(R.id.createAccountButton);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        toCreateAccountButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CreateAccountActivity.class);
                 startActivity(intent);
             }
         });
