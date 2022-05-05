@@ -1,10 +1,12 @@
 package com.example.a438_group7_project3.database;
 
+import androidx.room.Entity;
 
 import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
 
+@Entity(tableName = AppDataBase.CAPTION_TABLE)
 public class Caption {
 
     private Integer captionId;
