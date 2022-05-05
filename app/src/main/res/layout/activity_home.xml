@@ -7,44 +7,27 @@
     tools:context=".HomeActivity">
 
     <TextView
-        android:id="@+id/textViewTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="Working Title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#3F51B5"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
         android:id="@+id/textViewCaptionTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter a caption here"
         app:layout_constraintBottom_toTopOf="@+id/editTextCaption"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextCaption"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="128dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.744" />
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -54,6 +37,31 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextCaption"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93"
         app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="368dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/captionit_logo_black_crop" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
