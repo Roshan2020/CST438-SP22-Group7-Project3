@@ -1,12 +1,13 @@
 package com.example.a438_group7_project3.database;
 
 import androidx.annotation.IdRes;
+import androidx.room.Entity;
 
 import java.util.Objects;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Entity(tableName = AppDataBase.PICTURE_TABLE)
 public class Picture {
 
     private Integer pictureId;

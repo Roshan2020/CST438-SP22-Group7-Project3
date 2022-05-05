@@ -1,8 +1,10 @@
 package com.example.a438_group7_project3.database;
 
+import androidx.room.Entity;
+
 import java.util.Objects;
 
-
+@Entity(tableName = AppDataBase.USER_TABLE)
 public class User {
 
     private Integer userId;
