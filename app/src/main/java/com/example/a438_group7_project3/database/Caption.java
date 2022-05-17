@@ -6,7 +6,7 @@ import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
 
-@Entity(tableName = AppDataBase.CAPTION_TABLE)
+@Entity(tableName = AppDatabase.CAPTION_TABLE)
 public class Caption {
 
     private Integer captionId;

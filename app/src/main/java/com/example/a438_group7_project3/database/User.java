@@ -4,7 +4,7 @@ import androidx.room.Entity;
 
 import java.util.Objects;
 
-@Entity(tableName = AppDataBase.USER_TABLE)
+@Entity(tableName = AppDatabase.USER_TABLE)
 public class User {
 
     private Integer userId;
