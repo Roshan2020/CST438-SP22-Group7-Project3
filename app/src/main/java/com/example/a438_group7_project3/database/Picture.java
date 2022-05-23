@@ -7,7 +7,7 @@ import java.util.Objects;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity(tableName = AppDataBase.PICTURE_TABLE)
+@Entity(tableName = AppDatabase.PICTURE_TABLE)
 public class Picture {
 
     private Integer pictureId;
